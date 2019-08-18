@@ -4,6 +4,13 @@ export type ConfigT = {
     bot_section: {
         bot_token: string
     },
+    db_section: {
+        host: string,
+        port: string,
+        database: string,
+        user: string,
+        password: string
+    },
     proxy: {
         host: string,
         port: string,
